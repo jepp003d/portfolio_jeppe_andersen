@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-indent: 25px;
+}
+
+h2 {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    font-size: 2rem;
+    transform: skewY(5deg);
+    text-align: center;
+    top: -6vw;
+
+}
+
+h1 {
+
+    text-align: center;
+    transform: skewY(5deg);
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    font-size: 4rem;
+    padding-top: 50px;
+
+}
+
+/*----------------__SLOEPS-----------------*/
+
+.content {
+    margin: 0;
+    padding: 0;
+    transform: skewY(5deg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.baggrundsfarve {
+
+    transform: skewY(-5deg);
+    background-color: #e6e6e6;
+    z-index: 10;
+    padding: 50px 0px 50px 0px;
+
+    position: relative;
+    top: -50px;
+    padding-bottom: 150px;
+    /*    width: 100%;*/
+}
+
+
+.baggrundsfarve2 {
+    transform: skewY(-5deg);
+    background-color: white;
+    z-index: 10;
+    padding: 50px 0px 50px 0px;
+
+    position: relative;
+    top: -50px;
+    padding-bottom: 150px;
+    /*    width: 100%;*/
+}
+
+/*---------SLOPES SLUT----------------*/
+
+
+/*------------FORSIDE--------------------*/
+.logo_top {
+    padding: 230px 300px 240px 300px;
+}
+
+.shelf {
+    background-image: url(SVG/reol_grey.svg);
+    width: 100vw;
+    height: 51vw;
+
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+
+}
+
+.shelf img {
+
+    margin: 80px 300px 0px 0px;
+    /*
+    margin-top: 80px;
+    margin-right: 90px;
+*/
+    object-fit: cover;
+}
+
+.book_ux img {
+    position: relative;
+    background-size: cover;
+    width: 26.5vw;
+    height: 30vw;
+    margin-left: 150px;
+
+}
+
+.book_content img {
+    position: relative;
+    background-size: cover;
+    width: 26.5vw;
+    height: 30vw;
+}
+
+.book_web img {
+    position: relative;
+    background-size: cover;
+    width: 26.5vw;
+    height: 30vw;
+}
+
+.book_animation img {
+    position: relative;
+    background-size: cover;
+    width: 26.5vw;
+    height: 30vw;
+}
+
+/*------------FORSIDE--------------------*/
+
+/*---------_ANIMATION--------------*/
+
+.col {
+    flex-basis: 300px;
+    flex-grow: 1;
+
+    padding: 100px 50px 50px 100px;
+
+}
+
+.col {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 50px 50px 50px 100px;
+
+}
+
+/*
+.col {
+    padding: 50px 0px 50px 0px;
+}
+*/
+#animation h1 {
+    color: #12A395;
+}
+
+#user .baggrundsfarve {
+    padding-bottom: 0px;
+}
+
+
+#user img {
+    border-radius: 50%;
+}
+
+#game img {
+    border-radius: 50%;
+}
+
+
+
+/*---------_ANIMATION--------------*/
+
+
+
+
+
+
+
+
+/*BURGERMENU*/
+
+a {
+    visibility: visible;
+    text-decoration: none;
+
+}
+
+header {
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    height: 4rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+
+header nav a {
+
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    color: #A25F67;
+}
+
+.header ul {
+    margin: 0;
+    padding-right: 20px;
+    list-style: none;
+    overflow: hidden;
+    background-color: white;
+}
+
+.header ul a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.header ul a:hover {}
+
+
+
+/*
+.header .logo {
+    float: left;
+    position: relative;
+    background-image: url(img/logo/NW_Logo_big_1920px.jpg);
+    width: 5vw;
+    height: 3vw;
+}
+*/
+
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+    padding: 28px 20px;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
+
+.header .menu-icon .nav-icon {
+    background: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:before {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    transition: all .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:after {
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    transition: all .2s ease-out;
+}
+
+.header .menu-btn {
+    display: none;
+
+}
+
+.header .menu-btn:checked ~ .menu {
+    max-height: 440px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+/*BURGERMENU*/
